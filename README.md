@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -245,3 +246,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+=======
+# SuperCoolYoutubeConverter
+>>>>>>> f19bf6dc186bc9667aac572686ef94210ec5a596
