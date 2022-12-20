@@ -1,23 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -34,7 +16,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">SuperCoolYoutubeConverter</h3>
+<h3 align="center">Super Cool Youtube Converter</h3>
 
   <p align="center">
     SuperCoolYoutubeConverter is a free MP4/MP3 youtuber converter tool. With the simple GUI downloading videos have never been easier.
@@ -83,20 +65,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://didilusse.github.io)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Didilusse`, `SuperCoolYoutubeConverter`, `twitter_handle`, `linkedin_username`, `gmail`, `adildevgame`, `SuperCoolYoutubeConverter`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
 ### Built With
 
-* [![PyTube][PyTube-url]][PyTube-url]
-* [![CustomTkinter][CustomTK-url]][CustomTK-url]
+* [![PyTube][PyTube-url]
+* [![CustomTkinter][CustomTK-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -108,7 +88,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You must first be sure that you have pip installed
 * pip install
   ```sh
   python3 -m pip install --upgrade pip setuptools wheel
@@ -125,7 +105,7 @@ This is an example of how to list things you need to use the software and how to
     python -m pip install pytube
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -138,7 +118,7 @@ This is an example of how to list things you need to use the software and how to
 
 See the [open issues](https://github.com/Didilusse/SuperCoolYoutubeConverter/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -156,7 +136,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -165,7 +145,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -176,7 +156,7 @@ Adil R - adildevgame@gmail.com
 
 Project Link: [https://github.com/Didilusse/SuperCoolYoutubeConverter](https://github.com/Didilusse/SuperCoolYoutubeConverter)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
