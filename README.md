@@ -73,8 +73,8 @@
 
 ### Built With
 
-* [PyTube](https://pytube.io/en/latest/-url)
-* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter-url)
+* [PyTube](https://pytube.io/en/latest/)
+* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
