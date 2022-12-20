@@ -93,8 +93,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![PyTube][PyTube]][PyTube-url]
-* [![CustomTkinter][CustomTKinter]][CustomTK-url]
+* [![PyTube][PyTube-url]][PyTube-url]
+* [![CustomTkinter][CustomTK-url]][CustomTK-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
