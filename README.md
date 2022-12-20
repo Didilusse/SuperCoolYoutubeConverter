@@ -93,14 +93,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![PyTube][PyTube]][PyTube-url]
+* [![CustomTkinter][CustomTKinter]][CustomTK-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,37 +109,21 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip install
   ```sh
-  npm install npm@latest -g
+  python3 -m pip install --upgrade pip setuptools wheel
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/Didilusse/SuperCoolYoutubeConverter.git
    ```
-3. Install NPM packages
+2. Install pip packages
    ```sh
-   npm install
+    python -m pip install pytube
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,10 +132,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Download MP4
+- [x] Add MP3 support
+- [x] Create Installation instructions
 
 See the [open issues](https://github.com/Didilusse/SuperCoolYoutubeConverter/issues) for a full list of proposed features (and known issues).
 
@@ -203,17 +180,6 @@ Project Link: [https://github.com/Didilusse/SuperCoolYoutubeConverter](https://g
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Didilusse/SuperCoolYoutubeConverter.svg?style=for-the-badge
@@ -245,3 +211,7 @@ Project Link: [https://github.com/Didilusse/SuperCoolYoutubeConverter](https://g
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[PyTube-url]: https://pytube.io/en/latest/
+[PyTube.com]: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpypi.org%2Fproject%2Fpytube%2F&psig=AOvVaw19bmEsDVBACMrt_TAtG0I0&ust=1671582066150000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDR98v2hvwCFQAAAAAdAAAAABAE
+[CustomTK-url]: https://github.com/TomSchimansky/CustomTkinter
+[CustomTK.com]: https://github.com/TomSchimansky/CustomTkinter/raw/master/documentation_images/CustomTkinter_logo_dark.png
