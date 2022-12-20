@@ -20,6 +20,10 @@
 
   <p align="center">
     SuperCoolYoutubeConverter is a free MP4/MP3 youtuber converter tool. With the simple GUI downloading videos have never been easier.
+    <br />
+    <a><strong>SCYC</strong></a>
+    <br />
+    <br />
     <a href="https://www.youtube.com/@Didilusse">Youtube Channel</a>
     ·
     <a href="https://github.com/Didilusse/SuperCoolYoutubeConverter/issues">Report Bug</a>
