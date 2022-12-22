@@ -5,7 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -172,8 +171,6 @@ Project Link: [https://github.com/Didilusse/SuperCoolYoutubeConverter](https://g
 [issues-url]: https://github.com/Didilusse/SuperCoolYoutubeConverter/issues
 [license-shield]: https://img.shields.io/github/license/Didilusse/SuperCoolYoutubeConverter.svg?style=for-the-badge
 [license-url]: https://github.com/Didilusse/SuperCoolYoutubeConverter/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [PyTube-url]: https://pytube.io/en/latest/
 [PyTube.com]: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpypi.org%2Fproject%2Fpytube%2F&psig=AOvVaw19bmEsDVBACMrt_TAtG0I0&ust=1671582066150000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDR98v2hvwCFQAAAAAdAAAAABAE
