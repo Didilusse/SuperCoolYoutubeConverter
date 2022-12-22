@@ -95,14 +95,13 @@ You must first be sure that you have pip installed
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Didilusse/SuperCoolYoutubeConverter.git
-   ```
+1. Download the required files
 2. Install pip packages
    ```sh
     python -m pip install pytube
    ```
+3. Unzip the file from step 1.
+4. Run main.py
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
