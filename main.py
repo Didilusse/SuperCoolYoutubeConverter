@@ -6,43 +6,51 @@ import os
 
 #Setting the themes
 customtkinter.set_appearance_mode("dark")  # Modes: "System" (standard), "Dark", "Light"
-customtkinter.set_default_color_theme("green")  # Themes: "blue" (standard), "green", "dark-blue"
+customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
 #Creating the app window
 app = customtkinter.CTk()
 app.geometry("800x600")
 app.title("Super Cool Youtube Converter")
 
+# Create directory
+dirName = 'SCYC'
+dirPath = 'E'
 
-def downloadVideo(link):
-    print('video')
-    yt = YouTube(link)
-    # Getting the highest resolution possible
-    ys = yt.streams.get_highest_resolution()
+try:
+    # Create target Directory
+    os.mkdir(dirName)
+    dirPath = os.getcwd() + '/' + dirName
+    print("Directory " , dirName ,  " Created ") 
+    print("Directory " , dirPath ,  " Created ") 
+except FileExistsError:
+    print("Directory " , dirName ,  " already exists")
+    dirPath = os.getcwd() + '/' + dirName
 
-    # Starting download
-    print("Downloading...")
-    ys.download()
-    print("Download completed!!")
 
-def downloadSong(link):
-    print('audio')
-    yt = YouTube(link)
-    # extract only audio
-    ys = yt.streams.filter(only_audio=True).first()
-    # download the file
-    out_file = ys.download(output_path='.')
-    # save the file
-    base, ext = os.path.splitext(out_file)
-    new_file = base + '.mp3'
-    os.rename(out_file, new_file)
-
+def download(link, video):
+    if bool(video)==True:
+        print('video')
+        yt = YouTube(link)
+        # Getting the highest resolution possible
+        ys = yt.streams.get_highest_resolution()
+        ys.download(output_path=dirPath)
+    elif bool(video)==False:
+        yt = YouTube(link)
+        # extract only audio
+        ys = yt.streams.filter(only_audio=True).first()
+        # download the file
+        out_file = ys.download(output_path=dirPath)
+        # save the file
+        base, ext = os.path.splitext(out_file)
+        new_file = base + '.mp3'
+        os.rename(out_file, new_file)
 
 def button_callback():
     if combobox.get()=="MP4":
-        downloadVideo(entry_1.get())
+        download(entry_1.get(), True)
     elif combobox.get()=="MP3":
-        downloadSong(entry_1.get())
+        download(entry_1.get(), False)
     print(combobox.get())
 
 def optionmenu_callback(choice):
